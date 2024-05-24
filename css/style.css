@@ -1,0 +1,59 @@
+/* regole generali */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --grey: #2c3e50;
+    --green: #1abc9c;
+    --lightgrey: #3a546d;
+    --black: #333;
+    --white: #fdfdfe;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    color: var(--grey);
+    background-color: var(--white);
+}
+
+.green_bg {
+    background-color: var(--green);
+    color: var(--white);
+}
+
+.grey_bg {
+    background-color: var(--grey);
+    color: var(--white);
+}
+
+.lightgrey_bg {
+    background-color: var(--lightgrey);
+    color: var(--white);
+}
+
+
+.box {
+
+    /* debug */
+    width: 100%;
+    min-height: 80px;
+    border: 2px solid var(--white);
+    background-color: violet;
+
+}
+
+
+/* regole header */
+
+.header_menu {
+    width: 100%;
+    height: 80px;
+    background-color: var(--grey);
+    color: var(--white);
+}
+
+
