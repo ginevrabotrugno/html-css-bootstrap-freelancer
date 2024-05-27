@@ -77,6 +77,50 @@ a {
 }
 
 #jumbotron img {
-    max-width: 25%;
+    max-width: 60%;
     padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    
+    #jumbotron img {
+        max-width: 30%;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    
+    #jumbotron img {
+        max-width: 20%;
+    }
+
+}
+
+#jumbotron h1 {
+    font-weight: 700;
+}
+
+.star {
+    width: 35%;
+    height: 3px;
+    margin: 35px auto;
+    background-color: var(--white);
+    position: relative;
+    border-radius: 50px;
+}
+
+.star i {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: var(--green);
+    font-size: 30px;
+}
+
+#jumbotron h5 {
+    font-weight: 600;
+    font-size: smaller;
 }
