@@ -107,6 +107,7 @@ a {
     margin: 35px auto;
     position: relative;
     border-radius: 50px;
+    background-color: var(--grey);
 }
 
 .star i {
@@ -116,26 +117,19 @@ a {
     transform: translate(-50%, -50%);
     padding: 10px;
     font-size: 30px;
-}
-
-#jumbotron .star {
     background-color: var(--white);
 }
 
-#jumbotron .star i {
+.green_bg .star {
+    background-color: var(--white);
+}
+
+.green_bg .star i {
     background-color: var(--green);
 }
 
 h1, h2, h5 {
     font-weight: 700;
-}
-
-#portfolio .star {
-    background-color: var(--grey);
-}
-
-#portfolio .star i {
-    background-color: var(--white);
 }
 
 .card {
@@ -144,4 +138,9 @@ h1, h2, h5 {
 
 section {
     padding: 20px;
+}
+
+#download {
+    border-color: var(--white);
+    color: var(--white);
 }
