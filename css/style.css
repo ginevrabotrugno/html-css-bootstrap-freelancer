@@ -69,3 +69,8 @@ a {
     color: var(--green);
 } 
 
+
+
+#jumbotron {
+    padding-top: 80px;
+}
